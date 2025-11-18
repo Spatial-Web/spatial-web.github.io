@@ -1,0 +1,17 @@
+- name: "Sagar Bharadwaj"
+  role: "PhD Student"
+  photo: "/images/people/sagar.jpg"
+  affiliation: "Carnegie Mellon University"
+  website: "https://sagar-bharadwaj-ks.github.io/"
+
+- name: "Srinivasan Seshan"
+  role: "Professor"
+  photo: "/images/people/srini.jpg"
+  affiliation: "Carnegie Mellon University"
+  website: "https://csd.cmu.edu/people/faculty/srinivasan-seshan"
+
+- name: "Anthony Rowe"
+  role: "Professor"
+  photo: "/images/people/anthony.jpg"
+  affiliation: "Carnegie Mellon University"
+  website: "https://users.ece.cmu.edu/~agr/"

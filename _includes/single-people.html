@@ -1,0 +1,20 @@
+{% include base_path %}
+
+{% assign person = include.person %}
+
+<div class="person-item">
+  <div class="person-photo">
+    <img src="{{ person.photo | relative_url }}" alt="{{ person.name }}">
+  </div>
+  <div class="person-details">
+    <h3 class="person-name">
+      {% if person.website %}
+        <a href="{{ person.website }}" target="_blank">{{ person.name }}</a>
+      {% else %}
+        {{ person.name }}
+      {% endif %}
+    </h3>
+    <p class="person-role">{{ person.role }}</p>
+    <p class="person-affiliation">{{ person.affiliation }}</p>
+  </div>
+</div>

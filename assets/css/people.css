@@ -1,0 +1,80 @@
+.person-item {
+  display: flex;
+  align-items: center;
+  margin-bottom: 2rem;
+  padding: 0.5rem;
+  border-radius: 8px;
+  background-color: #f9f9f9;
+  transition: box-shadow 0.3s ease;
+}
+
+.person-item:hover {
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.person-photo {
+  flex-shrink: 0;
+  margin-right: 1.5rem;
+}
+
+.person-photo img {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  object-fit: cover;
+  /* border: 3px solid #e0e0e0; */
+}
+
+.person-details {
+  flex-grow: 1;
+}
+
+.person-name {
+  margin: 0 0 0.5rem 0;
+  font-size: 1.2rem;
+  font-weight: 400;
+  color: #333;
+}
+
+.person-name a {
+  color: #0066cc;
+  text-decoration: none;
+  transition: color 0.2s ease;
+}
+
+.person-name a:hover {
+  color: #004499;
+  text-decoration: underline;
+}
+
+.person-role {
+  margin: 0.25rem 0;
+  font-size: 1rem;
+  font-weight: 500;
+  color: #666;
+}
+
+.person-affiliation {
+  margin: 0.25rem 0 0 0;
+  font-size: 0.95rem;
+  color: #777;
+  font-style: italic;
+}
+
+/* Responsive design for smaller screens */
+@media (max-width: 768px) {
+  .person-item {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .person-photo {
+    margin-right: 0;
+    margin-bottom: 1rem;
+  }
+
+  .person-photo img {
+    width: 100px;
+    height: 100px;
+  }
+}

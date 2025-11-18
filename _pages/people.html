@@ -1,0 +1,13 @@
+---
+layout: archive
+title: "People"
+permalink: /people/
+author_profile: true
+---
+<link rel="stylesheet" href="{{ '/assets/css/people.css' | relative_url }}">
+
+{% include base_path %}
+
+{% for person in site.data.people %}
+    {% include single-people.html person=person %}
+{% endfor %}
