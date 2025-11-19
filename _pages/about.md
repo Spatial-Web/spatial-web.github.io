@@ -9,7 +9,7 @@ redirect_from:
 
 {% include base_path %}
 
-# About
+# Spatial Web
 
 Spatial Web -- the overlay of virtual content on top of the physical world, holds promise for dramatically changing many applications from navigation, to engineering, education and more. A broad range of new tools and infrastructure are needed to make the Spatial Web "real" and to make it easy for developers to create and publish Spatial Web content and applications. The goal of this project is to develop a coherent architecture for the Spatial Web. This includes tools and algorithms for each step in the process of generating a Spatial Web view for the user.
 
