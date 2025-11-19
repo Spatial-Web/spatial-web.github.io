@@ -1,7 +1,7 @@
 ---
 title: "OpenFLAME: A Federated Spatial Naming Infrastructure"
 authors: "Sagar Bharadwaj, Ziyong Ma, Ivan Liang, Michael Farb, Anthony Rowe Srinivasan Seshan"
-paper_url: 'https://arxiv.org/abs/2411.04271'
+paper_url: '/files/papers/openflame.pdf'
 website_url: 'https://open-flame.com/'
 github_url: 'https://github.com/orgs/openflam/repositories'
 venue: "arXiv"
