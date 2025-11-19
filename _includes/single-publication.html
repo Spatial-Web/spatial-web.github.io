@@ -10,6 +10,10 @@
     </p>
     <!-- <p class="publication-abstract">{{ post.abstract }}</p> -->
 
+    {% if post.errata %}
+        <p class="publication-authors">{{ post.errata }}</p>
+    {% endif %}
+
     <div class="publication-buttons">
         {% if post.paper_url %}
             <a href=

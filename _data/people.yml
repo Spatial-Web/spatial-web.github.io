@@ -1,17 +1,44 @@
-- name: "Sagar Bharadwaj"
-  role: "PhD Student"
-  photo: "/images/people/sagar.jpg"
-  affiliation: "Carnegie Mellon University"
-  website: "https://sagar-bharadwaj-ks.github.io/"
-
-- name: "Srinivasan Seshan"
-  role: "Professor"
-  photo: "/images/people/srini.jpg"
-  affiliation: "Carnegie Mellon University"
-  website: "https://csd.cmu.edu/people/faculty/srinivasan-seshan"
 
 - name: "Anthony Rowe"
   role: "Professor"
   photo: "/images/people/anthony.jpg"
   affiliation: "Carnegie Mellon University"
   website: "https://users.ece.cmu.edu/~agr/"
+  
+- name: "Srinivasan Seshan"
+  role: "Professor"
+  photo: "/images/people/srini.jpg"
+  affiliation: "Carnegie Mellon University"
+  website: "https://csd.cmu.edu/people/faculty/srinivasan-seshan"
+
+- name: "Sagar Bharadwaj"
+  role: "PhD Student"
+  photo: "/images/people/sagar.jpg"
+  affiliation: "Carnegie Mellon University"
+  website: "https://sagar-bharadwaj-ks.github.io/"
+
+- name: "Tao Jin"
+  role: "PhD Student"
+  photo: "/images/people/generic-avatar.svg"
+  affiliation: "Carnegie Mellon University"
+
+- name: "Edward Lu"
+  role: "PhD Student"
+  photo: "/images/people/generic-avatar.svg"
+  affiliation: "Carnegie Mellon University"
+
+- name: "Mallesham Dasari"
+  role: "Postdoctoral Student"
+  photo: "/images/people/generic-avatar.svg"
+  affiliation: "Carnegie Mellon University"
+
+- name: "Deklin Caban"
+  role: "REU Student"
+  photo: "/images/people/generic-avatar.svg"
+  affiliation: "Ohio State University"
+
+- name: "Vicente Riquelme"
+  role: "REU  Student"
+  photo: "/images/people/generic-avatar.svg"
+  affiliation: "Carleton College"
+
